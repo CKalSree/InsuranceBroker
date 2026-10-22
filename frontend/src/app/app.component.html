@@ -1,0 +1,12 @@
+<div class="shell">
+  <header class="topbar">
+    <div class="brand">{{ title }}</div>
+    <nav class="main-nav" aria-label="Primary navigation">
+      <a *ngFor="let item of navItems" [routerLink]="item.path" class="nav-link">{{ item.label }}</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <router-outlet />
+  </main>
+</div>

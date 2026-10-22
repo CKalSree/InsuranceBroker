@@ -1,0 +1,53 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shell {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: #0f172a;
+  color: white;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.nav-link {
+  color: #e2e8f0;
+  text-decoration: none;
+  padding: 0.65rem 0.9rem;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.nav-link:hover {
+  background: rgba(148, 163, 184, 0.2);
+}
+
+.page {
+  min-height: 70vh;
+}

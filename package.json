@@ -1,0 +1,16 @@
+{
+  "name": "insurance-broker-management-system",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:api": "npm --prefix backend run dev",
+    "dev:web": "npm --prefix frontend run start",
+    "build:web": "npm --prefix frontend run build",
+    "build:api": "npm --prefix backend run build",
+    "test:e2e": "npx playwright test"
+  }
+}

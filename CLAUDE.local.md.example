@@ -1,0 +1,9 @@
+# Local developer notes (example only)
+
+- Local frontend port: 4200
+- Local API port: 5000
+- Use a local development database only.
+- Never run migrations against production.
+- Keep credentials in environment variables or an untracked `.env` file.
+
+This is an example. Do not assume Claude Code loads this filename automatically in every setup.

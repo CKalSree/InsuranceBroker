@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "replace-with-real-server-name": {
+      "command": "node",
+      "args": ["./tools/your-mcp-server.js"]
+    }
+  }
+}
